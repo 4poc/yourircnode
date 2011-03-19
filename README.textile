@@ -1,0 +1,9 @@
+
+
+YourIRCNode is developed during the first hackonday! (http://hackonday.com/)
+
+- irc webchat client with persistent connections
+powered by:
+- javascript, v8, node.js
+- ...
+
