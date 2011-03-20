@@ -1,0 +1,39 @@
+
+body {
+    overflow: hidden;
+}
+
+#tabs {
+    width: 99%;
+    display: inline-block;
+}
+
+#tabs div {
+    
+}
+
+.ui-tabs .ui-tabs-panel {
+    font-family: monaco, monospace, "Courier New";
+    font-size: 15px;
+    padding: 4px !important;    
+    margin: 5px 0 0 0;
+    overflow: auto;
+}
+
+#input-form {
+    margin: 0 0 8px;
+    padding: 0;
+    width: 99%;
+    bottom: 0;
+    position: absolute;
+    
+}
+
+#input-form input {
+    width: 99%;
+    font-size: 15px;
+    font-family: monaco, monospace, "Courier New";
+}
+
+
+
