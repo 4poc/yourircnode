@@ -1,14 +1,20 @@
-x irc client library (low level)
--
+YourIRCNode is a web based IRC client written in javascript using node.js,
+socket.io and other technologies. Its currently under heavy development
+and not yet usable. When its finished it is intended to be used for a
+small number clients that can use it for multiple IRC networks, the
+server is keeping the connections persistent the same way a bouncer(bnc)
+or a server screen session would.
 
-YourIRCNode is developed during the first hackonday! (http://hackonday.com/)
+This project has been started during the first HackOnDay (http://hackonday.com)
+a Hackathon of individuals that livestream their desktops during the
+event.
 
-- irc webchat client with persistent connections
-powered by:
-- javascript, v8, node.js
-- socket.io, jquery, jquery-ui, dust
-- ...
 
-- and yes i know there other projects that already implement a irc client with node/socket.io..
-https://github.com/gf3/IRC-js/
+Currently the following technology/frameworks/libraries are used:
+- JavaScript (v8)
+- Node.js
+- Socket.io
+- jQuery + jQuery UI
+- Dust Template Engine
+- Keylock (client side keybindings)
 
