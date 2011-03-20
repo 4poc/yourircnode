@@ -1,0 +1,19 @@
+{
+  "server":
+  {
+    "bind": "0.0.0.0",
+    "host": "gene.ath.cx",
+    "port": 9991,
+    "use_ssl": true,
+    "ssl":
+    {
+      "key": "/etc/httpd/conf/server.key",
+      "cert": "/etc/httpd/conf/server.crt"
+    }
+  },
+
+  "template":
+  {
+    "compress": false
+  }
+}

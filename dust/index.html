@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YourIRCNode</title>
+    <link type="text/css" href="/static/css/jquery-ui-1.8.11.custom.css" />
+    <script type="text/javascript">
+    //<![CDATA[
+        var HOST = '{host}',
+            PORT = {port},
+            SSL = {ssl};
+    //]]>
+    </script>
+</head>
+<body>
+    <div id='test' 
+         style="display: block; margin: auto; width: 90%; background-color: black; height: 700px; overflow: scroll; font-weight: bold; font-family: monaco; font-size: 15px; color: white; padding: 10px; ">
+    </div>
+
+    <form id="input-form">
+        <input type="text" style="width: 400px; margin: 15px; padding: 4px;" name="input" value="" />
+    </form>
+
+    <script type="text/javascript" src="/static/js/jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery-ui-1.8.11.custom.min.js"></script>
+    <script type="text/javascript" src="/static/js/dust-core-0.3.0.min.js"></script>
+    <script type="text/javascript" src="/static/js/socket.io.min.js"></script>
+
+    <script type="text/javascript" src="/static/js/client.js"></script>
+</body>
+</html>
+
